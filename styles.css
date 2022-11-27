@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "tesla";
+    src: url(/fonts/TESLA.ttf);
+    
+}
+@font-face {
+    font-family: "gotham";
+    src: url(/fonts/GothamMedium_1.ttf) format("truetype"),
+    url(/fonts/GothamMedium_1.woff) format("woff");
+
+  
+    
+    
+}
+@font-face {
+    font-family: "gothamb";
+    src: url(/fonts/GothamBook.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "gotham-light";
+    src: url(/fonts/Gotham-Light.ttf) format("truetype");
+}
+
+*{
+    margin:0;
+}
+
+.text{
+    height: fit-content;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.nav-logo{
+    font-family: "tesla";
+    font-weight: lighter;
+    font-size: 0.75rem;
+    letter-spacing: 9px;
+    align-items: flex-end;
+    flex-grow: 2;
+}
+.nav-products{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "gothamb";
+    font-size: 0.9rem;
+    font-weight:bold;
+    color: black;
+    align-items: center;  
+    flex-grow: 3;
+    gap: 2.7vw;
+}
+.nav-main{
+    text-decoration: none;
+    font-family: "gothamb";
+    font-size: 0.9rem;
+    font-weight:bold;
+    color: black;
+    align-items: flex-end;
+    flex-grow: 2;
+    gap: 2.7vw;
+}
+.nav-main a{
+    padding-left: 1vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    padding-top: 7vh;
+}
+.text h1{
+   font-size: 2.7rem;
+   font-family: "gothamb";
+}
+.text a{
+    font-family: "gotham-light";
+    text-decoration: underline;
+}
+
+.buttons{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    gap:4vw;
+    padding-top: 15vh;
+    
+}
+.custom-order{
+    height: 5.5vh;
+    width: 18vw;
+    font-family: "gotham";
+    padding-top:10px;
+    background-color: rgb(44, 40, 40);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+}
+.existing-inventory{
+    height: 5.5vh;
+    width: 18vw;
+    font-family: "gotham";
+    padding-top:10px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: px;
+    }
+
+.model-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.gannett-cdn.com/media/2022/09/18/USATODAY/usatsports/tesla-lithium-texas-gulf-coast.jpg?width=2560");
+    background-position: center;
+    background-size: cover;
+    font-family: "gotham";
+}
+
+.model-y{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://theinterface.uk/wp-content/uploads/2022/08/Screenshot-2022-08-26-at-6.18.21-pm-min-1536x974.png");
+    background-position: center;
+    background-size: cover;
+    font-family: "gotham";
+    }
+
+.model-s{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://stimg.cardekho.com/images/carexteriorimages/930x620/Tesla/Model-S/5252/1611840999494/front-left-side-47.jpg?tr=w-375");
+    background-position: center;
+    background-size: cover;
+    font-family: "gotham";
+    }
+    
+
+.model-x{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+width: 100vw;
+height: 100vh;
+background-image: url("https://hips.hearstapps.com/hmg-prod/images/0x0-modelx-06-1639085819.jpg");
+background-position: center;
+background-size: cover;
+font-family: "gotham";
+}
+
+    
+
+.solar-panels{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/45992f1c-a33a-4a04-b1f0-338aff182f8e/bvlatuR/std/2880x1800/_25-Hero-D");
+    background-position: center;
+    background-size: cover;
+    font-family: "gotham";
+    }
+
+.solar-roof{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/60a584f9-7ae3-4cd5-9fa8-6251715df25b/bvlatuR/std/2880x1800/Solar-Roof-Design-Desktop-Global?quality=auto-medium&format=auto");
+    background-position: center;
+    background-size: cover;
+    font-family: "gotham";
+    }
+.accessories{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    
+    background-position: top center;
+    background-size: cover;
+    font-family: "gotham";
+    }
+img{
+    width: 30vw;
+    height:  30vw;
+}
+
+.accessories .buttons{
+    padding-top: -10vh;
+}
+
+footer{
+    font-family: "gothamb";
+    color: rgba(50, 50, 50,0.1);
+    font-size: 0.79rem;
+    display: flex;
+    gap: 1vw;
+}
